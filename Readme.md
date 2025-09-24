@@ -27,16 +27,17 @@ databaseChangeLog:
 This is the root element of a Liquibase changelog master file.
 It tells Liquibase that this file contains a list of changes or references to other files(changelog files) that have changes.
 
-- include:
+include:
 Instead of writing all changes directly inside this file, Liquibase allows you to include other changelog files.
-This is useful for organizing migrations into smaller files instead of having one giant changelog.
+This is useful for organizing migrations into smaller files instead of having one giant changelog. 
 
 file: db/changelog/dbChanges/changelog-JiraId.sql
 This specifies the relative path to another changelog file.
 Liquibase will load changelog-JiraId.sql and process the changesets inside it.
 Path is relative to the root changelog (db.changelog-master.yml).
 
-We can have multiple changelog files. Note : JiraId would be unique for every file.
+We can have multiple changelog files.
+Note : JiraId would be unique for every file.
 
 db/
  └── changelog/
