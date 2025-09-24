@@ -19,9 +19,7 @@ We have a file named db.changelog-master.yml as the name suggests this is a mast
 
 Below are the contents of a simple master file.
 
-databaseChangeLog:
-  - include:
-       file: db/changelog/dbChanges/changelog-JiraId.sql
+<img width="706" height="95" alt="image" src="https://github.com/user-attachments/assets/822d9814-6545-40b9-a38e-5117d0bebdfa" />
 
 What does above content means for liquibase engine ?
 
