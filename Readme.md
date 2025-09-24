@@ -37,7 +37,7 @@ Liquibase will load changelog-JiraId.sql and process the changesets inside it.
 Path is relative to the root changelog (db.changelog-master.yml).
 
 We can have multiple changelog files.
-Note : JiraId would be unique for every file.
+Note : changelog-1 can be replaced by JiraId that would be unique for every file.
 
 <img width="403" height="172" alt="image" src="https://github.com/user-attachments/assets/b84b5ebb-1346-4494-bdcc-809cb8c9f2c8" />
 
