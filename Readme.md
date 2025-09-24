@@ -18,9 +18,10 @@ NOTE : I have kept master file as yaml and other changelog files as sql, althoug
 We have a file named db.changelog-master.yml as the name suggests this is a master file.
 
 Below are the contents of a simple master file.
+
 databaseChangeLog:
   - include:
-      file: db/changelog/dbChanges/changelog-JiraId.sql
+       file: db/changelog/dbChanges/changelog-JiraId.sql
 
 What does above content means for liquibase engine ?
 
