@@ -47,7 +47,7 @@ ChangeLog File Explained
 
 1.Structure
 
-<img width="718" height="321" alt="image" src="https://github.com/user-attachments/assets/677431a4-4e62-4591-90df-f217f37b3bce" />
+<img width="714" height="230" alt="image" src="https://github.com/user-attachments/assets/8cd12910-54ee-46af-880a-bca4f0a3ce16" />
 
 
 --changeset bilal:1
@@ -57,12 +57,6 @@ Together (bilal:1) uniquely identifies this change.
 CREATE TABLE users ...
 Actual SQL that runs when this changeset is executed.
 It will create a table named users.
-
---changeset bilal:2
-Marks the start of another changeset, also written by bilal, but with id 2.
-Even though both are in the same file, Liquibase treats them as separate tracked changes.
-ALTER TABLE users ADD email VARCHAR(255);
-Adds a new column email to the already-created users table.
 
 
 2. When App runs it creates 3 tables
@@ -81,3 +75,14 @@ Adds a new column email to the already-created users table.
 2.3 databasechangeloglock
 
 ![img_2.png](img_2.png)
+
+
+
+
+--changeset bilal:2
+Marks the start of another changeset, also written by bilal, but with id 2.
+Even though both are in the same file, Liquibase treats them as separate tracked changes.
+ALTER TABLE users ADD email VARCHAR(255);
+Adds a new column email to the already-created users table.
+
+
