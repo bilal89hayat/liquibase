@@ -75,7 +75,7 @@ It will create a table named users.
 
 2.3 databasechangeloglock
 
-
+![img_3.png](img_3.png)
 
 
 databasechangelog has entries for author changesetId as primary key filename and checksum.
@@ -86,6 +86,7 @@ databasechangelog has entries for author changesetId as primary key filename and
 A change is required in db.changelog-master.yml
 
 
+![img_4.png](img_4.png)
 
 
 --changeset bilal:2
@@ -97,11 +98,15 @@ Adds a new column email to the already-created users table.
 
 **2 tables undergo a change when above changset is executed.**
 
-1. databasechangelog tabele that keeps entries for all changesets
+1. databasechangelog tabel that keeps entries for all changesets
 
 
+![img_5.png](img_5.png)
 
 2. user table which now has a new column
+
+
+![img_6.png](img_6.png)
 
 
 
