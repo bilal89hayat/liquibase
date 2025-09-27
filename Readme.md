@@ -37,14 +37,9 @@ Liquibase will load changelog-JiraId.sql and process the changesets inside it.
 Path is relative to the root changelog (db.changelog-master.yml).
 
 We can have multiple changelog files.
-Note : JiraId would be unique for every file.
+Note : changelog-1 can be replaced by JiraId that would be unique for every file.
 
-db/
- └── changelog/
-     ├── db.changelog-master.yml
-     └── dbChanges/
-         ├── changelog-JiraId.yaml
-         ├── changelog-JiraId.yaml
+<img width="403" height="172" alt="image" src="https://github.com/user-attachments/assets/b84b5ebb-1346-4494-bdcc-809cb8c9f2c8" />
 
 
 -------------------------
@@ -52,14 +47,7 @@ ChangeLog File Explained
 
 1.Structure
 
---changeset bilal:1
-CREATE TABLE users (
-    id BIGINT PRIMARY KEY,
-    username VARCHAR(100)
-);
-
---changeset bilal:2
-ALTER TABLE users ADD email VARCHAR(255);
+<img width="718" height="321" alt="image" src="https://github.com/user-attachments/assets/677431a4-4e62-4591-90df-f217f37b3bce" />
 
 
 --changeset bilal:1 ->This starts a new changeset.
