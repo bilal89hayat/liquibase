@@ -72,9 +72,11 @@ Adds a new column email to the already-created users table.
 
 ![img_1.png](img_1.png)
 
+
 2.2 databasechangelog
 
 ![img.png](img.png)
+
 
 2.3 databasechangeloglock
 
