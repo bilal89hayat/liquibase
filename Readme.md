@@ -1,17 +1,17 @@
 **Basic Introduction**
 ------------------
 
-What is Liquibase ?
+Q. What is Liquibase ?
 
-Open-Source database schema management and versioning tool !
+A. Open-Source database schema management and versioning tool !
 
-Why do we need it ?
+Q. Why do we need it ?
 
-To maintain diff versions of db schema !
+A. To maintain diff versions of db schema !
 
-How Does It Work ?
+Q. How Does It Work ?
 
-The change that you need should be done in a file and this file should be made available to db.change<img width="635" height="70" alt="image" src="https://github.com/user-attachments/assets/d6336b0b-c0e8-4ecd-a84b-01915061950d" />
+A. The change that you need should be done in a file and this file should be made available to db.change<img width="635" height="70" alt="image" src="https://github.com/user-attachments/assets/d6336b0b-c0e8-4ecd-a84b-01915061950d" />
 log-master file !
 
 
@@ -35,13 +35,13 @@ include:
 Instead of writing all changes directly inside this file, Liquibase allows you to include other changelog files.
 This is useful for organizing migrations into smaller files instead of having one giant changelog. 
 
-file: db/changelog/dbChanges/changelog-JiraId.sql
+file: db/changelog/dbChanges/changelog-UniqueId.sql
 This specifies the relative path to another changelog file.
 Liquibase will load changelog-JiraId.sql and process the changesets inside it.
 Path is relative to the root changelog (db.changelog-master.yml).
 
 We can have multiple changelog files.
-Note : changelog-1 can be replaced by JiraId that would be unique for every file.
+Note : changelog-1 can be replaced by any uniqueId.
 
 <img width="403" height="172" alt="image" src="https://github.com/user-attachments/assets/b84b5ebb-1346-4494-bdcc-809cb8c9f2c8" />
 
