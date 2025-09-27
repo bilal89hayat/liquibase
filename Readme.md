@@ -66,11 +66,13 @@ Adds a new column email to the already-created users table.
 
 
 2. When App runs it creates 3 tables
-   2.1 user
-   ![img_1.png](img_1.png)
 
-   2.2 databasechangelog
-   ![img.png](img.png)
 
-   2.3 databasechangeloglock
-   ![img_2.png](img_2.png)
+2.1 user
+![img_1.png](img_1.png)
+
+2.2 databasechangelog
+![img.png](img.png)
+
+2.3 databasechangeloglock
+![img_2.png](img_2.png)
