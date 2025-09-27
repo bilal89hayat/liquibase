@@ -11,8 +11,7 @@ A. To maintain diff versions of db schema !
 
 Q. How Does It Work ?
 
-A. The change that you need should be done in a file and this file should be made available to db.change<img width="635" height="70" alt="image" src="https://github.com/user-attachments/assets/d6336b0b-c0e8-4ecd-a84b-01915061950d" />
-log-master file !
+A. The change that you need should be done in a file and this file should be made available to db.changelog-master file !
 
 
 NOTE : I have kept master file as yaml and other changelog files as sql, although we can have other formats as well.
