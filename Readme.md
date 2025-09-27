@@ -8,7 +8,8 @@ Why do we need it ?
 To maintain diff versions of db schema !
 
 How Does It Work ?
-The change that you need should be done in a file and this file should be made available to db.changelog-master file !
+The change that you need should be done in a file and this file should be made available to db.change<img width="635" height="70" alt="image" src="https://github.com/user-attachments/assets/d6336b0b-c0e8-4ecd-a84b-01915061950d" />
+log-master file !
 
 
 NOTE : I have kept master file as yaml and other changelog files as sql, although we can have other formats as well.
@@ -74,7 +75,7 @@ It will create a table named users.
 
 2.3 databasechangeloglock
 
-![Uploading image.png…]()
+
 
 
 databasechangelog has entries for author changesetId as primary key filename and checksum.
@@ -85,7 +86,6 @@ databasechangelog has entries for author changesetId as primary key filename and
 A change is required in db.changelog-master.yml
 
 
-![Uploading image.png…]()
 
 
 --changeset bilal:2
@@ -99,12 +99,10 @@ Adds a new column email to the already-created users table.
 
 1. databasechangelog tabele that keeps entries for all changesets
 
-![Uploading image.png…]()
 
 
 2. user table which now has a new column
 
-![Uploading image.png…]()
 
 
 
