@@ -50,7 +50,7 @@ ChangeLog File Explained
 <img width="718" height="321" alt="image" src="https://github.com/user-attachments/assets/677431a4-4e62-4591-90df-f217f37b3bce" />
 
 
---changeset bilal:1 ->This starts a new changeset.
+--changeset bilal:1
 bilal -> the author. Usually your name/initials/team ID.
 1 -> the id of the changeset (must be unique per author).
 Together (bilal:1) uniquely identifies this change.
