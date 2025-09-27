@@ -28,7 +28,7 @@ What does above content means for liquibase engine ?
 
 databaseChangeLog:
 This is the root element of a Liquibase changelog master file.
-It tells Liquibase that this file contains a list of changes or references to other files(changelog files) that have changes.
+It tells Liquibase that this file contains a list of changes or references to other files(changelog files) that have actual changes to be implemented.
 
 include:
 Instead of writing all changes directly inside this file, Liquibase allows you to include other changelog files.
