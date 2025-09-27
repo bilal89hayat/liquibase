@@ -2,12 +2,15 @@
 ------------------
 
 What is Liquibase ?
+
 Open-Source database schema management and versioning tool !
 
 Why do we need it ?
+
 To maintain diff versions of db schema !
 
 How Does It Work ?
+
 The change that you need should be done in a file and this file should be made available to db.change<img width="635" height="70" alt="image" src="https://github.com/user-attachments/assets/d6336b0b-c0e8-4ecd-a84b-01915061950d" />
 log-master file !
 
