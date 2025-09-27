@@ -45,7 +45,7 @@ Note : changelog-1 can be replaced by JiraId that would be unique for every file
 -------------------------
 ChangeLog File Explained
 
-1.Structure
+1.changelog-1111.sql
 
 <img width="714" height="230" alt="image" src="https://github.com/user-attachments/assets/8cd12910-54ee-46af-880a-bca4f0a3ce16" />
 
@@ -59,7 +59,7 @@ Actual SQL that runs when this changeset is executed.
 It will create a table named users.
 
 
-2. When App runs it creates 3 tables
+2. When App runs for above changeset it creates 3 tables
 
 
 2.1 user
@@ -69,14 +69,23 @@ It will create a table named users.
 
 2.2 databasechangelog
 
-![img.png](img.png)
+<img width="1616" height="93" alt="image" src="https://github.com/user-attachments/assets/ee5c9ea1-deca-480a-8b10-f56e2b345303" />
 
 
 2.3 databasechangeloglock
 
-![img_2.png](img_2.png)
+![Uploading image.png…]()
 
 
+databasechangelog has entries for author changesetId as primary key filename and checksum.
+
+
+**Executing For Second Changeset File**
+
+A change is required in db.changelog-master.yml
+
+
+![Uploading image.png…]()
 
 
 --changeset bilal:2
@@ -84,5 +93,22 @@ Marks the start of another changeset, also written by bilal, but with id 2.
 Even though both are in the same file, Liquibase treats them as separate tracked changes.
 ALTER TABLE users ADD email VARCHAR(255);
 Adds a new column email to the already-created users table.
+
+
+**2 tables undergo a change when above changset is executed.**
+
+1. databasechangelog tabele that keeps entries for all changesets
+
+![Uploading image.png…]()
+
+
+2. user table which now has a new column
+
+![Uploading image.png…]()
+
+
+
+
+
 
 
