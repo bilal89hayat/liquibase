@@ -112,6 +112,10 @@ Adds a new column email to the already-created users table.
 
 
 
+Repo contains code that is simple to understand and runs perfectly.
+
+
+
 
 
 
