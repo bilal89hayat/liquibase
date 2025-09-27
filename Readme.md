@@ -75,3 +75,14 @@ Marks the start of another changeset, also written by bilal, but with id 2.
 Even though both are in the same file, Liquibase treats them as separate tracked changes.
 ALTER TABLE users ADD email VARCHAR(255);
 Adds a new column email to the already-created users table.
+
+
+2. When App runs it creates 3 tables
+   2.1 user
+       ![img_1.png](img_1.png)
+
+   2.2 databasechangelog
+       ![img.png](img.png)
+
+   2.3 databasechangeloglock
+       ![img_2.png](img_2.png)

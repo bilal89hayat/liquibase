@@ -1,5 +1,5 @@
 databaseChangeLog:
   - include:
-      file: db/changelog/dbChanges/changelog-JiraId.yaml
+      file: db/changelog/dbChanges/changelog-JiraId.sql
 #  - include:
 #      file: db/changelog/20240404-114913515_changelog.yaml

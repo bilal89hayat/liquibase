@@ -7,5 +7,5 @@ CREATE TABLE users (
     email VARCHAR(255) NOT NULL
 );
 
---changeset bilal:2
-ALTER TABLE users ADD COLUMN created_at TIMESTAMP DEFAULT NOW();
+----changeset bilal:2
+--ALTER TABLE users ADD COLUMN created_at TIMESTAMP DEFAULT NOW();
